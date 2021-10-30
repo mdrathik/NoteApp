@@ -23,7 +23,7 @@
         >
         </textarea>
       </label>
-
+<input type="text" hidden v-model="getEditNote">
     </div>
   </nav>
 </template>
@@ -38,8 +38,8 @@ export default {
   },
   computed:{
     getEditNote(){
-      if(this.updateNoteData['note']!=null){
-     return this.editNote=this.updateNoteData['note'] }
+
+     return this.editNote=this.updateNoteData['note'] 
     },
    isEmpty() {
   const data=this.editNote;
