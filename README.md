@@ -3,10 +3,7 @@
 
 ## Project setup
 
-```bash
-git clone https://github.com/mdrathik/vuejs-vuex-crud
-cd vuejs-vuex-crud
-```
+Clone the proejct 
 
 ```bash
 npm install
