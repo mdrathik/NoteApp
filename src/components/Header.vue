@@ -23,8 +23,7 @@
         >
         </textarea>
       </label>
-      {{getEditNote}}
-      Edit {{isEmpty}}
+
     </div>
   </nav>
 </template>
